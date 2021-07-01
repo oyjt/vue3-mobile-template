@@ -39,3 +39,11 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss">
+.container {
+  --container-height: calc(100vh - v-bind('containerHeight'));
+  height: calc(100vh - v-bind('containerHeight'));
+  overflow: auto;
+}
+</style>

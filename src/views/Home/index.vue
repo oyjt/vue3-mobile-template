@@ -33,6 +33,14 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.van-swipe img {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 240px;
+  padding: 30px 60px;
+  background-color: #fff;
+  pointer-events: none;
+}
 </style>
