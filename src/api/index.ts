@@ -1,4 +1,4 @@
-import request from "../utils/request";
+import request from "../plugins/request";
 
 // 文章列表
 export function article() {
