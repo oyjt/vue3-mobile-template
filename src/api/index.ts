@@ -1,9 +1,9 @@
 import request from "../plugins/request";
 
-// 文章列表
-export function article() {
+// 登录
+export function login(data: object) {
   return request({
-    url: "/profile ",
+    url: "/login ",
     method: "get"
   });
 }
