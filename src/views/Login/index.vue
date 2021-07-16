@@ -14,7 +14,6 @@ export default{
   setup() {
     const router = useRouter();
     onMounted(() => {
-      // axios请求demo：
       login({
         name: 'admin',
         password: '123456',
@@ -25,6 +24,9 @@ export default{
     const goLogin = () => {
       router.push("/");
     };
-  }
+    return {
+      goLogin
+    }
+  },
 }
 </script>
